@@ -3,4 +3,4 @@ Ready Website<br>
 No Installation No Database Required<br>
 Just Download the Package and Upload to your website<br>
 That's It!<br><br>
-DEMO Link <a href="https://yts1.cyou/">YTS1</a>
+DEMO Link <a href="https://yts1.cyou/" target="_blank">YTS1</a>
