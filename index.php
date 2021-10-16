@@ -1,6 +1,6 @@
 <?php 
 $ytid = $_GET['url'];
-$yurl = str_replace(array('https://www.youtube.com/watch?v=','https://m.youtube.com/watch?v='),array('',''),$ytid);
+$yurl = str_replace(array('https://www.youtube.com/watch?v=','https://m.youtube.com/watch?v=','https://youtu.be/'),array('','',''),$ytid);
 ?>
 <!doctype html>
 <html lang="en">
@@ -72,7 +72,7 @@ $yurl = str_replace(array('https://www.youtube.com/watch?v=','https://m.youtube.
 		</button>
 		<br>
 		<h3>YouTube Supported URL Format</h3>
-		<p class="small"><b>YouTube Link:</b> https://www.youtube.com/watch?v=KHPrDP0F5_o<br><b>YouTube Mobile Link:</b> https://m.youtube.com/watch?v=KHPrDP0F5_o</p>
+		<p class="small"><b>YouTube Sharing Link:</b> https://youtu.be/KHPrDP0F5_o<br><b>YouTube Link:</b> https://www.youtube.com/watch?v=KHPrDP0F5_o<br><b>YouTube Mobile Link:</b> https://m.youtube.com/watch?v=KHPrDP0F5_o</p>
 	</form>
 	
 	<div id="converted"></div>
