@@ -1,6 +1,6 @@
 <?php 
 $ytid = $_GET['url'];
-$yurl = str_replace(array('https://www.youtube.com/watch?v=','https://m.youtube.com/watch?v=','https://youtu.be'),array('','',''),$ytid);
+$yurl = str_replace(array('https://www.youtube.com/watch?v=','https://m.youtube.com/watch?v=','https://youtu.be/'),array('','',''),$ytid);
 ?>
 <!doctype html>
 <html lang="en">
